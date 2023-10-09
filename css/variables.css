@@ -1,0 +1,26 @@
+/* ========= VARIABLES ========= */
+
+:root {
+    font-size: 62.5%;
+    --standart-padding1: 2rem;
+    --standart-padding: 4rem;
+
+    /* fonts type*/
+    --title-font: 'Inter', sans-serif;
+    --text-font: 'Roboto', sans-serif;
+
+    /* fonts size */
+    --title-font-size: 2.3rem;
+    --text-font-size: 1.9rem;
+
+    /* colors */
+    --hue: 1300;
+    /* HSL color mode */
+    --base-color-one: #f587f1 ;
+    --base-color-two: rgb(235, 187, 237);
+    --title-color: hsl(var(--hue) 70% 10%);
+    --text-color: hsl(0 0% 46%);
+    --text-color-light: hsl(0 0% 98%);
+    --background-color: hsl(0 0% 98%);
+}
+

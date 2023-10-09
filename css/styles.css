@@ -1,0 +1,83 @@
+/* ========= STYLES ========= */
+body {
+    font: 400 var(--text-font-size) var(--text-font);
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+.title {
+    font: 500 var(--title-font-size) var(--title-font);
+    padding: var(--standart-padding);
+
+}
+
+header {
+    background-color: var(--base-color-one);
+    padding: var(--standart-padding);
+
+    color: var(--text-color-light);
+}
+
+main {
+    padding: var(--standart-padding);
+    text-align: justify
+}
+
+nav {
+    background-color: var(--base-color-two);
+    padding: var(--standart-padding);
+}
+
+aside {
+    padding: var(--standart-padding);
+    color: var(--text-color-light);
+    background-color: var(--base-color-two);
+    text-align: center;
+}
+
+footer {
+    background-color: var(--base-color-one);
+    padding: var(--standart-padding);
+    color: var(--text-color-light);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2, h1, h3{
+    text-decoration: none;
+    color: rgb(230, 25, 227);
+}
+
+a, p, li{
+    color: black;
+}
+
+header > p {
+    color: rgb(230, 25, 227);
+}
+
+header > a {
+    color: rgb(230, 25, 227);
+}
+
+footer > p {
+    color: black;
+}
+.box1, .box2{
+    color: #ffff;
+    background-color: var(--base-color-one);
+}
+
+.resumo {
+   
+    background-color: var(--base-color-one);
+    padding: 30px;
+    border-radius: 30px;
+    justify-content: space-evenly;
+}
+
+
+

@@ -1,0 +1,82 @@
+/* ========= GRID-FLEX LAYOUT ========= */
+.container {
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas: 
+    "header"
+    "navigation"
+    "content"
+    "aside"
+    "footer";
+}
+
+.header { grid-area: header;}
+.navigation { grid-area: navigation;}
+.content { grid-area: content;}
+.aside {grid-area: aside;}
+.footer {grid-area: footer;}
+
+.sobre {
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1, .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    display: block;
+    padding: 20px;
+}
+
+.tamanho {
+    width: 100%;
+    height: auto;
+    border-radius: 80px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+
+    .container{
+        display: grid;
+        grid-template-areas: 
+        "header     header header"
+        "navigation content aside"
+        "footer     footer footer";
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: auto 1fr auto;    
+    }
+
+    .flex > div {
+        flex: 1 1 200px;
+        margin: 20px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 20px;
+    }
+    
+
+}
